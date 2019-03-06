@@ -14,6 +14,6 @@ int main(int argc, char *argv[])
 	printf("%s\n", str);
 	Spin(1);
     }
-    return 0;
+    return 0; //return은 exit과 같다. 사용자가 의도한대로 정상적으로 끝났을시 0, 1은 실패
 }
 
